@@ -1,0 +1,19 @@
+header > ul > li {
+  display: inline;
+  font-size: large;
+  margin: 10px;
+}
+ul li a {
+  text-decoration: none;
+}
+footer {
+  text-align: center;
+  margin-top: 20px;
+}
+figure {
+  text-align: center;
+  margin: 0;
+}
+p {
+  text-align: justify;
+}
