@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>html5</title>
+    <style>
+      * {
+        margin: 2px;
+        padding: 0;
+      }
+      html,
+      body {
+        width: 100%;
+        height: 100%;
+      }
+      body {
+        display: flex;
+        flex-direction: column;
+      }
+      header {
+        width: 100%;
+        height: 100px;
+        border: 1px solid;
+      }
+      .content {
+        display: flex;
+        flex: 1;
+      }
+      nav {
+        width: 20%;
+        border: 1px solid;
+      }
+      main {
+        width: 80%;
+        border: 1px solid;
+      }
+      .audio {
+        border: 2px solid gray;
+        border-radius: 5px;
+        margin: 5px;
+        width: 300px;
+      }
+      .video {
+        border: 2px solid gray;
+        border-radius: 5px;
+        margin: 5px;
+        width: 300px;
+      }
+      footer {
+        width: 100%;
+        border: 1px solid;
+        margin-bottom: 0px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>header</header>
+    <div class="content">
+      <nav>nav</nav>
+      <main>
+        <section class="audio">
+          <h2>violin song</h2>
+          <audio controls src="asset/violin song.mp3"></audio>
+        </section>
+        <section class="audio">
+          <h2>sun-raha-h-tu</h2>
+          <audio controls src="asset/sun-raha-h-tu.mp3"></audio>
+        </section>
+        <section class="audio">
+          <h2>kuldeep-bishnoi</h2>
+          <audio controls src="asset/kuldeep-bishnoi.mp3"></audio>
+        </section>
+        <section class="audio">
+          <h2>against-the-world</h2>
+          <audio
+            controls
+            src="asset/chris-grey-us-against-the-world.mp3"
+          ></audio>
+        </section>
+
+        <section class="video">
+          <h2>violin song</h2>
+          <video
+            controls
+            width="300px"
+            src="asset/3D Blooming Flower.mp4"
+          ></video>
+        </section>
+        <section class="video">
+          <h2>sun-raha-h-tu</h2>
+          <video
+            controls
+            width="300px"
+            src="asset/Lotus Flower Blooming  Time Lapse- Pink Single.mp4"
+          ></video>
+        </section>
+      </main>
+    </div>
+    <footer>footer</footer>
+  </body>
+</html>
