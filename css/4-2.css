@@ -17,3 +17,30 @@ figure {
 p {
   text-align: justify;
 }
+nav > ul {
+  display: flex;
+}
+
+nav li {
+  list-style: none;
+  margin-left: 10px;
+  padding: 5px;
+}
+nav li:hover {
+  background: #f1acb3;
+}
+nav li a {
+  text-decoration: none;
+  color: black;
+}
+
+/* nested manu style */
+nav li .dropdown {
+  display: none;
+  position: absolute;
+  background: rgb(230, 231, 146);
+  padding-left: 10px;
+}
+nav li:hover .dropdown {
+  display: block;
+}
